@@ -1,0 +1,28 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+    {% load static %}
+    <!-- Bootstrap -->
+
+    <section class="page-section about-heading">
+      <div class="container">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/about.jpg' %}" alt="">
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="bg-faded rounded p-5">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">Tradición familiar Mexicana</span>
+                  <span class="section-heading-lower">Nuestra historia</span>
+                </h2>
+                <p>Fundada en 1990 Ofilinea se compromete con la calidad y se especializa en el uso, trayendo muebles que no solo son correctos esteticamente, sino diseñados para el dia a dia </p>
+                <p>El servicio post venta es insuperable, pues lo que mas nos importa es la satisfaccion del cliente, orillandonos a modificar las especificaciones continuamente.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{% endblock %}
